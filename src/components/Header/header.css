@@ -1,0 +1,31 @@
+.header {
+  background-color: #2d3941;
+}
+.header-buttons-wrapper {
+  margin-left: 320px;
+}
+input[type="search"] {
+  width: 100%;
+}
+
+.header-input-wrapper > div {
+  width: 220px;
+}
+@media (max-width: 1348px) {
+  .header-buttons-wrapper {
+    margin-left: auto;
+  }
+  .header-input-wrapper > div {
+    width: 200px;
+  }
+}
+@media (max-width: 1027px) {
+  .header-input-wrapper > div {
+    width: 150px;
+  }
+}
+@media (max-width: 1008px) {
+  div.header-input-wrapper > div {
+    width: 100px;
+  }
+}

@@ -1,0 +1,149 @@
+.movie-ser-details-wrapper {
+  min-height: 80vh;
+}
+.movie-ser-container {
+  left: 208px;
+  flex-direction: row;
+}
+.movie-ser-container .poster-img {
+  width: 280px;
+  height: 415px;
+}
+.movie-ser-container .movie-info {
+  width: 75%;
+}
+.movie-ser-container .movie-info .buttons {
+  width: 70%;
+  justify-content: space-around;
+}
+.second-mov-or-ser-section {
+  width: 72%;
+}
+.second-mov-or-ser-section .top-cast-section {
+  z-index: 10;
+  overflow: hidden;
+}
+.second-mov-or-ser-section .top-cast-section .every-person-in-cast {
+  height: 381px;
+  width: 146px;
+  background-color: #212529;
+}
+.second-mov-or-ser-section .top-cast-section .every-person-in-cast-img {
+  width: 146px;
+  height: 245px;
+}
+.overlay-top-person {
+  position: absolute;
+  height: 100%;
+  right: 0;
+  z-index: 10;
+  display: block;
+}
+.movie-Series-information {
+  width: 38%;
+}
+.more-info-mov-ser {
+  justify-content: space-between;
+}
+.movie-Series-information .movie-Series-social-media a {
+  margin-right: 48px;
+}
+@media (max-width: 1357px) {
+  .movie-ser-details-wrapper {
+    min-height: 90vh;
+  }
+  .movie-ser-container {
+    left: 160px;
+  }
+}
+@media (max-width: 1290px) {
+  .movie-ser-container {
+    left: 120px;
+  }
+}
+@media (max-width: 1130px) {
+  .movie-Series-information .movie-Series-social-media a {
+    margin-right: 35px;
+  }
+}
+@media (max-width: 1125px) {
+  .movie-ser-container {
+    left: 60px;
+  }
+}
+
+@media (max-width: 1064px) {
+  .movie-ser-container {
+    left: 20px;
+  }
+}
+@media (max-width: 1028px) {
+  .movie-ser-details-wrapper {
+    min-height: 95vh;
+  }
+}
+@media (max-width: 945px) {
+  .more-info-mov-ser {
+    flex-direction: column;
+    align-items: start;
+  }
+  .second-mov-or-ser-section {
+    width: 100%;
+  }
+  .movie-Series-information {
+    width: 50%;
+    margin: 10px 50px;
+  }
+}
+@media (max-width: 783px) {
+  .movie-ser-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .movie-ser-details-wrapper {
+    min-height: 280vh;
+  }
+  .movie-ser-container .poster-img {
+    width: "100px";
+    height: "150px";
+  }
+  .movie-ser-container .movie-info {
+    padding-top: 40px;
+    width: 95%;
+    padding-left: 0;
+  }
+  .movie-ser-container .movie-info div:first-of-type,
+  .movie-ser-container .movie-info h2:first-of-type {
+    text-align: center;
+  }
+  .movie-ser-container .movie-info .acting-people {
+    flex-direction: column;
+  }
+  .movie-ser-container .movie-info .acting-people .frist-person,
+  .movie-ser-container .movie-info .acting-people .second-person,
+  .movie-ser-container .movie-info .acting-people .third-person,
+  .overview {
+    margin: 20px 0;
+  }
+  .movie-ser-container .movie-info .buttons {
+    width: 88%;
+    margin-left: 0;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 530px) {
+  .movie-info .date,
+  .movie-info .language {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .movie-ser-details-wrapper {
+    min-height: 300vh;
+  }
+}
+@media (max-width: 400px) {
+  .movie-ser-details-wrapper {
+    min-height: 230vh;
+  }
+}
