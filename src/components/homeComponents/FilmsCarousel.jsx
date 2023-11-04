@@ -67,7 +67,7 @@ function FilmsCarousel() {
         >
           {movies.map((mov, i) => (
             <Link key={i} to={`/moviedetails/${mov.id}`}>
-              <div className="cursor-pointer " style={{ height: "415px" }}>
+              <div className="cursor-pointer" style={{ height: "415px" }}>
                 <img
                   src={`https://www.themoviedb.org//t/p/w220_and_h330_face${mov.poster_path}`}
                   className="h-100 "
